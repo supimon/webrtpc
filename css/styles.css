@@ -43,6 +43,9 @@ footer{
     color: white;
     padding-top: 10px;
 }
+.blue{
+    color: #0591cc;
+}
 .banner-img{
     background-image: url("../assets/banner-webID.jpg");
     background-repeat: no-repeat;
