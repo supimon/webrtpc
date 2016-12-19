@@ -86,10 +86,10 @@ h2.inner-pages{
 }
 .sign-contract{
     text-decoration: none;
-    margin-left: 15px;
 }
 .sign-contract-p{
     margin-bottom: 25px;
+    line-height: 30px;
 }
 .process h2{
     margin-top: 30px;
