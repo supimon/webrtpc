@@ -43,8 +43,18 @@ footer{
     color: white;
     padding-top: 10px;
 }
+.footer-margin-top{
+    margin-top: 40px;
+}
+h2.inner-pages{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
 .blue{
     color: #0591cc;
+}
+.normal-lineheight{
+    line-height: inherit;
 }
 .banner-img{
     background-image: url("../assets/banner-webID.jpg");
@@ -70,6 +80,16 @@ footer{
 }
 .intro p{
     margin-top: 25px;
+}
+.contract-process{
+    margin-bottom: 25px;
+}
+.sign-contract{
+    text-decoration: none;
+    margin-left: 15px;
+}
+.sign-contract-p{
+    margin-bottom: 25px;
 }
 .process h2{
     margin-top: 30px;
