@@ -47,6 +47,15 @@ strong{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.1em;
 }
+.tick{
+    background-image: url(../assets/tick-icon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 99% center;
+}
+select.tick{
+    background-position: 84% center;
+}
 .footer-margin-top{
     margin-top: 40px;
 }
@@ -129,6 +138,27 @@ h2.inner-pages{
     font-style: italic;
     border-color: #0591cc;
     padding-right: 20px;
+}
+#user-form .form-group .error-feedback{
+    display: none;
+}
+#user-form .form-group.has-error-feedback .error-feedback{
+    display: block;
+    margin-left: 16px;
+    font-size: 12px;
+    margin-top: 4px;
+    color: red;
+    margin-bottom: -2px;
+}
+#user-form .form-group .error-code-feedback{
+    display: none;
+}
+#user-form .form-group.has-code-error-feedback .error-code-feedback{
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    color: red;
+    margin-bottom: -2px;
 }
 #inputTitle{
     width: 100px;
@@ -520,6 +550,9 @@ footer a:hover{
         margin-left: 0px;
         margin-right: 0px;
     }
+    #user-form .form-group.has-error-feedback .error-feedback {
+        margin-left: 33%;
+    }
     #user-form .col-sm-3.control-label{
         width: 30%;
     }
@@ -566,6 +599,9 @@ footer a:hover{
     }
 }
 @media(min-width: 992px){
+    #user-form .form-group.has-error-feedback .error-feedback {
+        margin-left: 27.5%;
+    }
     #user-form .col-sm-3.control-label{
         width: 25%;
     }
@@ -600,6 +636,9 @@ footer a:hover{
     }
 }
 @media(min-width: 1200px){
+    #user-form .form-group.has-error-feedback .error-feedback {
+        margin-left: 24%;
+    }
     #user-form .col-sm-3.control-label{
         width: 22%;
     }
