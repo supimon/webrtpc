@@ -43,6 +43,10 @@ footer{
     color: white;
     padding-top: 10px;
 }
+strong{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+}
 .footer-margin-top{
     margin-top: 40px;
 }
@@ -264,6 +268,35 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     color: #0591cc;
     margin-bottom: 15px;
 }
+.require-list .single-list{
+    background-color: #f7f7f7;
+    display: table;
+    width: 100%;
+    padding: 0px;
+    color: #0591cc;
+    margin-bottom: 15px;
+}
+.single-list .list-number{
+    display: table-cell;
+    background-color: #0097dc;
+    width: 40px;
+    color: white;
+    text-align: center;
+}
+.single-list .img-holder{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+}
+.single-list .require-process {
+    padding: 0px;
+    display: block;
+    text-align: center;
+    padding: 10px 10px 20px;
+}
+.require-list .require-text{
+    font-size: 18px;
+}
 .require-number{
     display: inline-block;
     width: 40px;
@@ -293,6 +326,72 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 .require-list li:last-child{
     padding-bottom: 15px;
 }
+#tan-form, #start-telephony{
+    margin-left: 40px;
+    background-color: #f7f7f7;
+}
+#start-telephony{
+    margin-bottom: 20px;
+    padding: 14px 14px;
+    margin-right: 0px;
+}
+#tan-form .input-group{
+    margin-bottom: 10px;
+    margin-left: 21px;
+    margin-top: 10px;
+    padding-top: 12px;
+    max-width: 250px;
+}
+#tan-form .input-group-addon{
+    background-color: #0097dc;
+    color: #fff;
+    border: 1px solid #0097dc;
+}
+#tan-form .submit-form,
+#start-telephony .submit-form{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 14px;
+}
+#start-telephony .submit-form{
+    margin-left: 0px;
+    max-width: 339px;
+    display: block;
+    white-space: inherit;
+    text-align: left;
+    padding-right: 10px;
+}
+#start-telephony .glyphicon-triangle-right{
+    margin-left: -16px;
+}
+#inputTAN{
+    border: 1px solid #0097dc;
+}
+.next-process-steps{
+    border-bottom: 2px solid #0097dc;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.next-process-steps h3{
+    margin-top: 0px;
+    color: #0097dc;
+    margin-bottom: 20px;
+}
+.next-process-steps .steps span{
+    font-size: 1.2em;
+    color: #0097dc;
+}
+.browsers-list img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.browsers-list li{
+    padding-bottom: 7px;
+}
+.ios-app{
+    width: 110px;
+}
 .secure-text{
     margin-bottom: 20px;
 }
@@ -311,6 +410,9 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     padding: 10px 12px 9px 12px;
     letter-spacing: 1px;
     margin-bottom: 20px;
+}
+.help-btn.process{
+    margin-top: 30px;
 }
 .modal-content{
     height: 100%;
@@ -341,6 +443,20 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 }
 .panel-title{
     line-height: 20px;
+}
+.trans-text{
+    margin-top: 0px;
+    color: #0097dc;
+}
+.trans-number{
+    display: block;
+    margin: 0px auto 20px auto;
+    background-color: #ebebeb;
+    width: 200px;
+    color: #0097dc;
+    border-radius: 6px;
+    padding: 7px 0px;
+    font-size: 27px;
 }
 footer .container{
     font-size: 14px;
@@ -382,6 +498,17 @@ footer a:hover{
     .process-list p{
         margin-bottom: 0px;
     }
+    .single-list .require-process{
+        padding: 0px;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: left;
+    }
+    .single-list .img-holder{
+        display: table-cell;
+        width: 152px;
+        text-align: left;
+    }
     .thank-you{
         text-align: left;
         margin-top: 30px;
@@ -417,6 +544,17 @@ footer a:hover{
     }
     #inputCity {
         margin-top: -26px;
+    }
+    #tan-form .input-group{
+        padding-top: 0px;
+        max-width: inherit;
+    }
+    #tan-form .submit-form{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    #start-telephony .glyphicon-triangle-right{
+        margin-left: 0px;
     }
     footer p{
         text-align: left;
