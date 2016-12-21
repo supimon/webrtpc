@@ -33,10 +33,10 @@ Regarding video overlay in home page:
 
 1. A sample video has been included in the assets folder to display HTML5 video player in the modal
 2. The #videoModal at line 536 in the index.html bears all the different formats that can be displayed within the modal
-These include
-1. A sample embedded Youtube video
-2. A sample embedded Vimeo video
-3. A sample HTML5 video
+ These include
+ - A sample embedded Youtube video
+ - A sample embedded Vimeo video
+ - A sample HTML5 video
 
 
 
