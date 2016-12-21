@@ -74,7 +74,7 @@
                         <p class="thank-you">Thank you for choosing WebID!</p>
                     </div>
                     <form class="form-horizontal" id="user-form">
-                        <div class="form-group inputTitle">
+                        <div class="form-group">
                             <label for="inputTitle" class="col-sm-3 control-label">Title<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <select id="inputTitle">
@@ -84,25 +84,25 @@
                                 </select>
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Please select a suitable title</p>
+                            <p class="error-feedback no-display inputTitle">Please select a suitable title</p>
                         </div>
-                        <div class="form-group inputFirstName">
+                        <div class="form-group">
                             <label for="inputFirstName" class="col-sm-3 control-label">First Name(All)<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid First Name</p>
+                            <p class="error-feedback no-display inputFirstName">Invalid First Name</p>
                         </div>
-                        <div class="form-group inputFamilyName">
+                        <div class="form-group">
                             <label for="inputFamilyName" class="col-sm-3 control-label">Family Name<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <input type="text" class="form-control" id="inputFamilyName" placeholder="Family Name">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Family Name</p>
+                            <p class="error-feedback no-display inputFamilyName">Invalid Family Name</p>
                         </div>
-                        <div class="form-group inputMonth inputDate inputYear">
+                        <div class="form-group">
                             <label for="inputDOB" class="col-sm-3 control-label">Date Of Birth<sup>*</sup></label>
                             <div id="inputDOB" class="col-sm-8 input-holder">
                                 <input type="text" class="form-control dob-input" id="inputMonth" placeholder="MM">
@@ -110,9 +110,9 @@
                                 <input type="text" class="form-control dob-input" id="inputYear" placeholder="YYYY">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Date of Birth</p>
+                            <p class="error-feedback no-display inputMonth inputDate inputYear">Invalid Date of Birth</p>
                         </div>
-                        <div class="form-group inputNationality">
+                        <div class="form-group">
                             <label for="inputNationality" class="col-sm-3 control-label">
                                 Staatsangehörigkeit<sup>*</sup>
                             </label>
@@ -125,9 +125,9 @@
                                 </select>
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Country</p>
+                            <p class="error-feedback no-display inputNationality">Invalid Country</p>
                         </div>
-                        <div class="form-group inputStreet inputStrtNo">
+                        <div class="form-group">
                             <label for="inputStreet" class="col-sm-3 control-label">Street<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <input type="text" class="form-control" id="inputStreet" placeholder="Street">
@@ -135,21 +135,24 @@
                                 <input type="text" class="form-control" id="inputStrtNo" placeholder="No.">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Street and No</p>
+                            <p class="error-feedback inputStreet no-display">Invalid Street</p>
+                            <p class="error-feedback inputStrtNo no-display">Invalid Street No</p>
                         </div>
-                        <div class="form-group inputPostal inputCity">
+                        <div class="form-group">
                             <label for="inputPostal" class="col-sm-3 control-label">Postal Code<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <input type="text" class="form-control" id="inputPostal" placeholder="Postal Code">
                                 <div class="clearfix visible-xs"></div>
-                                <p class="error-code-feedback hidden-sm hidden-md hidden-lg">Invalid Code</p>
+                                <p class="error-code-feedback inputPostal hidden-sm hidden-md hidden-lg no-display">
+                                    Invalid Code</p>
                                 <label for="inputCity" class="col-sm-3 control-label city">City<sup>*</sup></label>
                                 <input type="text" class="form-control" id="inputCity" placeholder="City">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Code and City</p>
+                            <p class="error-feedback no-display inputPostal hidden-xs">Invalid Code</p>
+                            <p class="error-feedback no-display inputCity">Invalid City</p>
                         </div>
-                        <div class="form-group inputCountry">
+                        <div class="form-group">
                             <label for="inputCountry" class="col-sm-3 control-label">Country<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <select id="inputCountry">
@@ -160,15 +163,15 @@
                                 </select>
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Country</p>
+                            <p class="error-feedback no-display inputCountry">Invalid Country</p>
                         </div>
-                        <div class="form-group inputEmail">
+                        <div class="form-group">
                             <label for="inputEmail" class="col-sm-3 control-label">E-mail<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Email</p>
+                            <p class="error-feedback no-display inputEmail">Invalid Email</p>
                         </div>
                         <div class="form-group">
                             <label for="inputPhone" class="col-sm-3 control-label">Phone</label>
@@ -176,13 +179,13 @@
                                 <input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
                             </div>
                         </div>
-                        <div class="form-group inputMobile">
+                        <div class="form-group">
                             <label for="inputMobile" class="col-sm-3 control-label">Mobile<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
                                 <input type="tel" class="form-control" id="inputMobile" placeholder="Mobile">
                             </div>
                             <div class="clearfix"></div>
-                            <p class="error-feedback">Invalid Mobile number</p>
+                            <p class="error-feedback no-display inputMobile">Invalid Mobile number</p>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8 input-holder">

@@ -11,6 +11,12 @@ validateUserForm(['inputFirstName', 'inputFamilyName'], true)
  - will display error messages besides these fields on the front end and also display the additional data check box.
  - as a quick check, you can try this in browser console.
 
+3. The individual error messages can be edited in index.html file within the <p class="error-feedback"> under
+each input.
+4. For the Date of birth, even though there are 3 inputs, there is just one <p class="error-feedback"> to display
+the error message.
+5.
+
 
 
  Regarding decreasing the overall content width in the page:
