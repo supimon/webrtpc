@@ -587,6 +587,7 @@ footer a:hover{
     #tan-form .input-group{
         padding-top: 0px;
         max-width: inherit;
+        width: 230px; /*for solving a padding issue in galaxy tab*/
     }
     #tan-form .submit-form{
         margin-left: 0px;
