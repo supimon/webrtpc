@@ -15,7 +15,10 @@ validateUserForm(['inputFirstName', 'inputFamilyName'], true)
 each input.
 4. For the Date of birth, even though there are 3 inputs, there is just one <p class="error-feedback"> to display
 the error message.
-5.
+5. For postal code, there are 2 error feedback tags
+  - <p class="error-feedback"> for larger screens
+  - <p class="error-code-feedback"> for mobile screens
+and therefore the messages need to be duplicated in both of them.
 
 
 
