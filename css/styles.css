@@ -425,6 +425,9 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 .ios-app{
     width: 110px;
 }
+.ios-app.home{
+    margin-left: 60px;
+}
 .secure-text{
     margin-bottom: 20px;
 }
@@ -461,6 +464,9 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 .modal-body{
     height: calc(100% - 120px);
     overflow-y: scroll;
+}
+#videoModal .modal-body{
+    overflow-y: hidden;
 }
 .panel-group .panel{
     border-radius: 0px;

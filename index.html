@@ -219,13 +219,15 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="video-help">
-                        <img class="col-md-4 col-xs-3" src="assets/video-thumb.png" alt="video help">
+                        <a href="#" data-toggle="modal" data-target="#videoModal">
+                            <img class="col-md-4 col-xs-3" src="assets/video-thumb.png" alt="video help">
+                        </a>
                         <p class="col-md-8 col-xs-9">Our video explains in a few simple steps how you can verify your
                             identify from your computer or mobile device</p>
                         <div class="clearfix"></div>
                     </div>
                     <button class="btn btn-default help-btn col-xs-12"
-                            data-toggle="modal" data-target="#myModal">Display additional help</button>
+                            data-toggle="modal" data-target="#faqModal">Display additional help</button>
                     <div class="clearfix"></div>
                     <div class="require">
                         <h3>You require</h3>
@@ -238,13 +240,11 @@
                                 with integrated video telephony.
                                 </p>
                                 <p>
-                                    <span>Download Skype now free of charge</span>
-                                    <img src="">
-                                </p>
-                                <p>
                                     Alternatively, you can use our iOS app <a href="#">WebIdent</a>
                                 </p>
-                                <img src="">
+                                <a href="#">
+                                    <img src="assets/apple-app-store-icon.png" alt="iOS app" class="ios-app home">
+                                </a>
                             </li>
                             <li>
                                 <h4><span class="require-number">2.</span>Webcam</h4>
@@ -264,7 +264,7 @@
                         <div class="clearfix"></div>
                     </div>
                     <button class="btn btn-default help-btn col-xs-12"
-                            data-toggle="modal" data-target="#myModal">Display additional help</button>
+                            data-toggle="modal" data-target="#faqModal">Display additional help</button>
                 </div>
             </div>
         </div>
@@ -281,14 +281,14 @@
             </ul>
         </div>
     </footer>
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="faqModal" tabindex="-1" role="dialog" aria-labelledby="faqModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">Questions and Answers</h4>
+                    <h4 class="modal-title" id="faqModalLabel">Questions and Answers</h4>
                 </div>
                 <div class="modal-body">
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -529,6 +529,28 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cTwqvWZn62k"
+                            frameborder="0" allowfullscreen></iframe>-->
+                    <!--<iframe src="https://player.vimeo.com/video/105217603" width="100%" height="98%"
+                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                    <video width="100%" height="100%" controls>
+                        <source src="assets/sample-video.mp4" type="video/mp4">
+                        <source src="assets/sample-video.ogg" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
