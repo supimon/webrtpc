@@ -672,4 +672,8 @@ footer a:hover{
     #inputCity{
         width: 55%;
     }
+    /*uncomment the following to manipulate content width*/
+    /*.container{
+        width: 1000px;
+    }*/
 }
