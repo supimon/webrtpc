@@ -675,3 +675,13 @@ footer a:hover{
         width: 1000px;
     }*/
 }
+@media screen and (min--moz-device-pixel-ratio:0) {
+    select{
+        text-indent: 3px;
+    }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    select{
+        padding-left: 6px;
+    }
+}

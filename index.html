@@ -78,7 +78,7 @@
                         <div class="form-group">
                             <label for="inputTitle" class="col-sm-3 control-label">Title<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <select id="inputTitle">
+                                <select id="inputTitle" required>
                                     <option selected>Mr.</option>
                                     <option>Mrs.</option>
                                     <option>Ms.</option>
@@ -90,7 +90,8 @@
                         <div class="form-group">
                             <label for="inputFirstName" class="col-sm-3 control-label">First Name(All)<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                                <input type="text" class="form-control" id="inputFirstName"
+                                       placeholder="First Name" required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback no-display inputFirstName">Invalid First Name</p>
@@ -98,7 +99,8 @@
                         <div class="form-group">
                             <label for="inputFamilyName" class="col-sm-3 control-label">Family Name<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <input type="text" class="form-control" id="inputFamilyName" placeholder="Family Name">
+                                <input type="text" class="form-control" id="inputFamilyName"
+                                       placeholder="Family Name" required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback no-display inputFamilyName">Invalid Family Name</p>
@@ -106,9 +108,12 @@
                         <div class="form-group">
                             <label for="inputDOB" class="col-sm-3 control-label">Date Of Birth<sup>*</sup></label>
                             <div id="inputDOB" class="col-sm-8 input-holder">
-                                <input type="text" class="form-control dob-input" id="inputMonth" placeholder="MM">
-                                <input type="text" class="form-control dob-input" id="inputDate" placeholder="DD">
-                                <input type="text" class="form-control dob-input" id="inputYear" placeholder="YYYY">
+                                <input type="number" class="form-control dob-input" id="inputMonth"
+                                       placeholder="MM" required>
+                                <input type="number" class="form-control dob-input" id="inputDate"
+                                       placeholder="DD" required>
+                                <input type="number" class="form-control dob-input" id="inputYear"
+                                       placeholder="YYYY" required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback no-display inputMonth inputDate inputYear">Invalid Date of Birth</p>
@@ -118,7 +123,7 @@
                                 Staatsangehörigkeit<sup>*</sup>
                             </label>
                             <div class="col-sm-8 input-holder">
-                                <select id="inputNationality">
+                                <select id="inputNationality" required>
                                     <option selected>German</option>
                                     <option>Italy</option>
                                     <option>United Kingdom</option>
@@ -131,9 +136,11 @@
                         <div class="form-group">
                             <label for="inputStreet" class="col-sm-3 control-label">Street<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <input type="text" class="form-control" id="inputStreet" placeholder="Street">
+                                <input type="text" class="form-control" id="inputStreet"
+                                       placeholder="Street" required>
                                 <label for="inputStrtNo" class="col-sm-3 control-label str-no">No.<sup>*</sup></label>
-                                <input type="text" class="form-control" id="inputStrtNo" placeholder="No.">
+                                <input type="text" class="form-control" id="inputStrtNo"
+                                       placeholder="No." required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback inputStreet no-display">Invalid Street</p>
@@ -142,12 +149,14 @@
                         <div class="form-group">
                             <label for="inputPostal" class="col-sm-3 control-label">Postal Code<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <input type="text" class="form-control" id="inputPostal" placeholder="Postal Code">
+                                <input type="number" class="form-control" id="inputPostal"
+                                       placeholder="Postal Code" required>
                                 <div class="clearfix visible-xs"></div>
                                 <p class="error-code-feedback inputPostal hidden-sm hidden-md hidden-lg no-display">
                                     Invalid Code</p>
                                 <label for="inputCity" class="col-sm-3 control-label city">City<sup>*</sup></label>
-                                <input type="text" class="form-control" id="inputCity" placeholder="City">
+                                <input type="text" class="form-control" id="inputCity"
+                                       placeholder="City" required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback no-display inputPostal hidden-xs">Invalid Code</p>
@@ -156,7 +165,7 @@
                         <div class="form-group">
                             <label for="inputCountry" class="col-sm-3 control-label">Country<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <select id="inputCountry">
+                                <select id="inputCountry" required>
                                     <option selected>German</option>
                                     <option>Italy</option>
                                     <option>United Kingdom</option>
@@ -169,7 +178,8 @@
                         <div class="form-group">
                             <label for="inputEmail" class="col-sm-3 control-label">E-mail<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+                                <input type="email" class="form-control" id="inputEmail"
+                                       placeholder="E-mail" required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback no-display inputEmail">Invalid Email</p>
@@ -183,7 +193,8 @@
                         <div class="form-group">
                             <label for="inputMobile" class="col-sm-3 control-label">Mobile<sup>*</sup></label>
                             <div class="col-sm-8 input-holder">
-                                <input type="tel" class="form-control" id="inputMobile" placeholder="Mobile">
+                                <input type="tel" class="form-control" id="inputMobile"
+                                       placeholder="Mobile" required>
                             </div>
                             <div class="clearfix"></div>
                             <p class="error-feedback no-display inputMobile">Invalid Mobile number</p>
@@ -191,7 +202,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-8 input-holder">
                                 <div class="checkbox">
-                                    <input type="checkbox" id="privacyCheck">
+                                    <input type="checkbox" id="privacyCheck" required>
                                     <label for="privacyCheck">Please accept our terms and conditions
                                         and Privacy policy / Data privacy statements <a href="#">(show)</a>
                                     </label>
