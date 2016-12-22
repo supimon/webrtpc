@@ -17,7 +17,8 @@ validateUserForm(['inputFirstName', 'inputFamilyName'], true)
   - p class="error-code-feedback" for mobile screens (line 146 in index.html)
   - p class="error-feedback" for larger screens (line 152 in index.html)
   and therefore the messages need to be duplicated in both of them.
-
+6. Forms are validated only for the required attribute. Since it was already mentioned that the fields will be
+validated at server end, the type validation is omitted from the frontend.
 
 
 
@@ -39,4 +40,15 @@ Regarding video overlay in home page:
  - A sample HTML5 video
 
 
+Testing reports:
+- - - - - - - - -
 
+The pages have been tested on the following devices/OS/browsers:
+
+1. iPhone 4S to 7Plus / iOS version 5.1 to 10 / Mobile Safari and Chrome
+2. iPad Pro, iPad Air2, iPad Air, iPad Mini3, iPad Mini2 / iOS version 7 to 10 / Mobile Safari and Chrome
+3. Galaxy S5 to S7 / Android version 4.4 to 6 / Android Browser and Chrome
+4. Galaxy Note3, Galaxy Note4, Galaxy Tab4, Pixel XL, Pixel, Nexus 6P, Nexus 5X, Nexus 6, Nexus 9 Tablet, Nexus 7 Tablet, Moto X 2nd Gen, Moto G 2nd Gen, HTC One M8 / Android version 4.4 to 7.1 / Android Browser and Chrome
+5. Nokia Lumia 930 / Windows Phone OS 8.1 / Native Browser
+6. Windows OS 8.1 and Windows 10 / IE 11, IE edge, Chrome(latest), Firefox(latest), Opera(latest)
+7. Mac OS Yosemite, Sierra, El Capitan / Safari 8 to 10, Chrome(latest), Firefox(latest), Opera(latest)
