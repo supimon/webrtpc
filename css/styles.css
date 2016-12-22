@@ -38,7 +38,6 @@ select{
     font-style: italic;
     text-indent: 6px;
 }
-_:-ms-fullscreen, :root select::-ms-expand{  padding-left: 8px;  }
 footer{
     background-color: #3b3b3d;
     color: white;
@@ -682,6 +681,12 @@ footer a:hover{
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /*this only seems to work for IE11*/
+    select{
+        padding-left: 8px;
+    }
+}
+@supports (-ms-ime-align:auto) {
     select{
         padding-left: 8px;
     }
