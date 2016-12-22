@@ -677,11 +677,14 @@ footer a:hover{
 }
 @media screen and (min--moz-device-pixel-ratio:0) {
     select{
-        text-indent: 3px;
+        text-indent: 4px;
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     select{
-        padding-left: 6px;
+        padding-left: 8px;
     }
+}
+_:-ms-fullscreen, :root select{
+    padding-left: 6px;
 }
