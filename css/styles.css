@@ -675,18 +675,21 @@ footer a:hover{
         width: 1000px;
     }*/
 }
+/*css hacks*/
 @media screen and (min--moz-device-pixel-ratio:0) {
+    /*Firefox*/
     select{
         text-indent: 4px;
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    /*this only seems to work for IE11*/
+    /*IE11*/
     select{
         padding-left: 8px;
     }
 }
 @supports (-ms-ime-align:auto) {
+    /*IE Edge*/
     select{
         padding-left: 8px;
     }
