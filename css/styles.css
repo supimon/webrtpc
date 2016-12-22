@@ -38,7 +38,7 @@ select{
     font-style: italic;
     text-indent: 6px;
 }
-_:-ms-fullscreen, :root select{  padding-left: 8px;  }
+_:-ms-fullscreen, :root select::-ms-expand{  padding-left: 8px;  }
 footer{
     background-color: #3b3b3d;
     color: white;
