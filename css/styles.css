@@ -24,7 +24,7 @@ a{
     text-decoration: underline;
 }
 sup{
-    color: #0591cc;
+    color: #003b79;
     padding: 0px 2px;
 }
 select{
@@ -32,7 +32,7 @@ select{
     height: 34px;
     outline: none;
     color: #555;
-    border: 1px solid #0097dc;
+    border: 1px solid #003b79;
     border-radius: 4px;
     background: #fff;
     font-style: italic;
@@ -67,7 +67,7 @@ h2.inner-pages{
     margin-bottom: 25px;
 }
 .blue{
-    color: #0591cc;
+    color: #003b79;
 }
 .normal-lineheight{
     line-height: inherit;
@@ -88,7 +88,7 @@ h2.inner-pages{
 }
 .intro h2{
     margin-top: 0px;
-    color: #0591cc;
+    color: #003b79;
     letter-spacing: .5px;
 }
 .intro h3{
@@ -110,7 +110,7 @@ h2.inner-pages{
 .process h2{
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #0591cc;
+    color: #003b79;
     letter-spacing: .5px;
 }
 .process-list{
@@ -139,7 +139,7 @@ h2.inner-pages{
 }
 #user-form input{
     font-style: italic;
-    border-color: #0591cc;
+    border-color: #003b79;
     padding-right: 20px;
 }
 #user-form .form-group .error-feedback{
@@ -224,7 +224,7 @@ h2.inner-pages{
 }
 input#privacyCheck[type="checkbox"] + label:before,
 input#dataCheck[type="checkbox"] + label:before{
-    border: 1px solid #0097dc;
+    border: 1px solid #003b79;
     content: "";
     display: inline-block;
     height: 25px;
@@ -247,12 +247,12 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     position: absolute;
     top: 17px;
     left: 7px;
-    background-color: #0097dc;
+    background-color: #003b79;
 }
 .submit-form{
-    background-color: #0097dc;
     color: white;
-    border: 1px solid #0475a9;
+    border: 1px solid #ce7017;
+    background-color: #ee7d11;
     letter-spacing: 0.8px;
     padding-left: 30px;
     padding-right: 30px;
@@ -266,7 +266,7 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     margin-right: 6px;
 }
 .glyphicon{
-    color: #0097dc;
+    color: #003b79;
     font-size: 26px;
 }
 .glyphicon-arrow-right{
@@ -295,7 +295,7 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 .require-list h4{
     background-color: #f7f7f7;
     padding: 10px 0px;
-    color: #0591cc;
+    color: #003b79;
     margin-bottom: 15px;
 }
 .require-list .single-list{
@@ -303,12 +303,12 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     display: table;
     width: 100%;
     padding: 0px;
-    color: #0591cc;
+    color: #003b79;
     margin-bottom: 15px;
 }
 .single-list .list-number{
     display: table-cell;
-    background-color: #0097dc;
+    background-color: #003b79;
     width: 40px;
     color: white;
     text-align: center;
@@ -340,7 +340,7 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     content: "";
     width: 40px;
     height: 39px;
-    background-color: #0097dc;
+    background-color: #003b79;
     position: absolute;
     top: -10px;
     left: 0px;
@@ -373,9 +373,9 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     max-width: 250px;
 }
 #tan-form .input-group-addon{
-    background-color: #0097dc;
+    background-color: #003b79;
     color: #fff;
-    border: 1px solid #0097dc;
+    border: 1px solid #003b79;
 }
 #tan-form .submit-form,
 #start-telephony .submit-form{
@@ -395,21 +395,21 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     margin-left: -16px;
 }
 #inputTAN{
-    border: 1px solid #0097dc;
+    border: 1px solid #003b79;
 }
 .next-process-steps{
-    border-bottom: 2px solid #0097dc;
+    border-bottom: 2px solid #003b79;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
 .next-process-steps h3{
     margin-top: 0px;
-    color: #0097dc;
+    color: #003b79;
     margin-bottom: 20px;
 }
 .next-process-steps .steps span{
     font-size: 1.2em;
-    color: #0097dc;
+    color: #003b79;
 }
 .browsers-list img{
     width: 30px;
@@ -435,8 +435,8 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     padding-left: 0px;
 }
 .help-btn{
-    background-color: #0097dc;
-    border-color: #0c92d0;
+    background-color: #ee7d11;
+    border-color: #ce7017;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
@@ -482,14 +482,14 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 }
 .trans-text{
     margin-top: 0px;
-    color: #0097dc;
+    color: #003b79;
 }
 .trans-number{
     display: block;
     margin: 0px auto 20px auto;
     background-color: #ebebeb;
     width: 200px;
-    color: #0097dc;
+    color: #003b79;
     border-radius: 6px;
     padding: 7px 0px;
     font-size: 27px;
