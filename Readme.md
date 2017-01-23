@@ -19,7 +19,7 @@ validateUserForm(['inputFirstName', 'inputFamilyName'], true)
   and therefore the messages need to be duplicated in both of them.
 6. Forms are validated only for the required attribute. Since it was already mentioned that the fields will be
 validated at server end, the type validation is omitted from the frontend.
-7. In order to display the second checkbox(with the label "My data...") in the form, please comment line 207 in styles.css
+7. In order to display the second checkbox(with the label "My data...") in the form, please add the class "correct-data" to the form#user-form on line 77 in index.html
 
 
 
@@ -45,9 +45,9 @@ go to line 675 in css/styles.css. Uncomment the .container class and change the 
 
 4. Regarding Process Start:
 - - - - - - - - - - - - - -
-1. In order to show the animated network connections gif, please add the class "started" to the p#start-telephony on line 50 in process-start.html
+1. In order to show the animated network connections gif as well as the "end session" button, please add the class "started" to the p#start-telephony on line 50 in process-start.html
 2. In order to hide the animated gif once the session starts, please add the class "active" to the same p#start-telephony tag
-3. Finally in order to restore to the initial state with no animated gif, remove any class on the same p#start-telephony tag
+3. Finally in order to restore to the initial state with no animated gif and no "end session" button, remove any class on the same p#start-telephony tag
 
 
 
