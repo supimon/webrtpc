@@ -403,6 +403,13 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 #start-telephony .glyphicon-triangle-right{
     margin-left: -16px;
 }
+#start-telephony.started .before-start, #start-telephony .on-start,
+#start-telephony.active .before-start, #start-telephony.active .on-start{
+    display: none;
+}
+#start-telephony .before-start, #start-telephony.started .on-start{
+    display: inline;
+}
 #inputTAN{
     border: 1px solid #003b79;
 }

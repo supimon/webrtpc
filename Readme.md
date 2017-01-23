@@ -43,7 +43,15 @@ go to line 675 in css/styles.css. Uncomment the .container class and change the 
 
 
 
-4. Testing reports:
+4. Regarding Process Start:
+- - - - - - - - - - - - - -
+1. In order to show the animated network connections gif, please add the class "started" to the p#start-telephony on line 50 in process-start.html
+2. In order to hide the animated gif once the session starts, please add the class "active" to the same p#start-telephony tag
+3. Finally in order to restore to the initial state with no animated gif, remove any class on the same p#start-telephony tag
+
+
+
+5. Testing reports:
 - - - - - - - - - -
 
 The pages have been tested on the following devices/OS/browsers:
