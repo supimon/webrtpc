@@ -396,6 +396,11 @@ input#dataCheck[type="checkbox"]:checked + label:after{
     background-color: #003b79;
     padding: 6px 20px;
     border-color: #042950;
+    display: none;
+}
+#start-telephony.started .submit-form.end,
+#start-telephony.active .submit-form.end{
+    display: inline
 }
 #start-telephony .submit-form.end:hover{
     background-color: #ebebeb;
