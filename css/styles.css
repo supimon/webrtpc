@@ -204,7 +204,7 @@ h2.inner-pages{
     padding-left: 5px;
 }
 .form-group.data-check{
-    display: none;
+    display: none; /*comment this line to show the second check box*/
 }
 #privacyCheck, #dataCheck{
     margin-left: 0px;
@@ -386,10 +386,19 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 #start-telephony .submit-form{
     margin-left: 0px;
     max-width: 339px;
-    display: block;
+    /*display: block;*/
+    margin-right: 15px;
     white-space: inherit;
     text-align: left;
     padding-right: 10px;
+}
+#start-telephony .submit-form.end{
+    background-color: #003b79;
+    padding: 6px 20px;
+    border-color: #042950;
+}
+#start-telephony .submit-form.end:hover{
+    background-color: #ebebeb;
 }
 #start-telephony .glyphicon-triangle-right{
     margin-left: -16px;
