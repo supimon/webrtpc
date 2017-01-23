@@ -400,7 +400,7 @@ input#dataCheck[type="checkbox"]:checked + label:after{
 }
 #start-telephony.started .submit-form.end,
 #start-telephony.active .submit-form.end{
-    display: inline
+    display: inline-block;
 }
 #start-telephony .submit-form.end:hover{
     background-color: #ebebeb;
